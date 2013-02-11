@@ -5,13 +5,6 @@
 Makey makey;
 
 
-
-void sendFloat(char addr[], float val){
-  Serial.print(addr);
-  Serial.print(' ');
-  Serial.println(val);
-} 
-
 void onMakeyTouch(int i){
   Serial.print(i);
   Serial.println(" is touched. Cooool!");
